@@ -1,0 +1,6 @@
+/.idea/
+/cloud-consumer-one/cloud-consumer-one.iml
+/cloud-service-one/cloud-service-one.iml
+/cloud-consumer-one/target/
+/cloud-service-one/target/
+/holmes-cloud-parent.iml
