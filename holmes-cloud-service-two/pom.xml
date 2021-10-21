@@ -14,6 +14,7 @@
     <modules>
         <module>holmes-cloud-service-two-controller</module>
         <module>holmes-cloud-service-two-service</module>
+        <module>holmes-cloud-service-two-service-api</module>
     </modules>
 
     <properties>
