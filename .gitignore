@@ -4,3 +4,6 @@
 /cloud-consumer-one/target/
 /cloud-service-one/target/
 /holmes-cloud-parent.iml
+/holmes-cloud-service-one/holmes-cloud-service-one-service/holmes-cloud-service-one-service.iml
+/holmes-cloud-service-one/holmes-cloud-service-one.iml
+/holmes-cloud-service-two/holmes-cloud-service-two.iml

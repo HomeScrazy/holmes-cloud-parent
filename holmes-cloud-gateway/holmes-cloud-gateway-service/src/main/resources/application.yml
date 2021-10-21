@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: holmes-cloud-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.52.100:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedHeaders: "*"
+            allowedOriginPatterns: "*"
+            allowCredentials: true
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+              - OPTION
+      routes:
+        - id: SERVICE-ONE
+          uri: lb://hesp-cloud-service-one
+          predicates:
+            - Path=/one/**
+          filters:
+            - StripPrefix=1
+        - id: SERVICE-TWO
+          uri: lb://hesp-cloud-service-two
+          predicates:
+            - Path=/two/**
+          filters:
+            - StripPrefix=1
+server:
+  port: 8080
