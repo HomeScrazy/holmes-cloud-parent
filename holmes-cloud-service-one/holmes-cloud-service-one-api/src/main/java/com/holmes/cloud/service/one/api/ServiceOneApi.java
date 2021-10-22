@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "hesp-cloud-service-one"
+@FeignClient(name = "holmes-cloud-service-one"
         , path = "/service/one")
-public interface HelloWorldApi {
+public interface ServiceOneApi {
     @RequestMapping(value = "/echo", method = RequestMethod.GET)
     String echo(@RequestParam("name") String name);
 }

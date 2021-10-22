@@ -12,10 +12,7 @@
 
         <module>holmes-cloud-gateway</module>
         <module>holmes-cloud-service-one</module>
-        <module>holmes-cloud-service-one-controller</module>
         <module>holmes-cloud-service-two</module>
-        <module>holmes-cloud-service-two-controller</module>
-        <module>holmes-cloud-service-two-api</module>
     </modules>
 
     <properties>

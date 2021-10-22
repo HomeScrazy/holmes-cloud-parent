@@ -23,13 +23,13 @@ spring:
               - OPTION
       routes:
         - id: SERVICE-ONE
-          uri: lb://hesp-cloud-service-one
+          uri: lb://holmes-cloud-service-one
           predicates:
             - Path=/one/**
           filters:
             - StripPrefix=1
         - id: SERVICE-TWO
-          uri: lb://hesp-cloud-service-two
+          uri: lb://holmes-cloud-service-two
           predicates:
             - Path=/two/**
           filters:

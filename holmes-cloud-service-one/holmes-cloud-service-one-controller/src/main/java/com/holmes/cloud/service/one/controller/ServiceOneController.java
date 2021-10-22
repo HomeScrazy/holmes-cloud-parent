@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @EnableAutoConfiguration
 @RequestMapping("service/one")
-public class HelloWorldController {
+public class ServiceOneController {
 
     @RequestMapping(value = "/echo", method = RequestMethod.GET)
     public String echo(@RequestParam("name") String name) {
