@@ -9,6 +9,8 @@ holmes:
 spring:
   application:
     name: '@project.artifactId@'
+  profiles:
+    active: '@profile.active@'
   cloud:
     nacos:
       discovery:

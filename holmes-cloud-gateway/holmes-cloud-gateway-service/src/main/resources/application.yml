@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: holmes-cloud-gateway
   cloud:
     nacos:
       discovery:
