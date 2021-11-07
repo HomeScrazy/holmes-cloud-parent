@@ -1,9 +1,0 @@
-server:
-  port: 8082
-spring:
-  application:
-    name: holmes-cloud-service-two
-  cloud:
-    nacos:
-      discovery:
-        server-addr: 192.168.52.100:8848

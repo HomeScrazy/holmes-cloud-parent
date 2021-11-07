@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: holmes-cloud-two-one
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.52.100:8848
+        namespace: d2cadbbb-3d4a-4633-b293-0aa92df7488c
+      config:
+        server-addr: 192.168.52.100:8848
+        namespace: d2cadbbb-3d4a-4633-b293-0aa92df7488c
+        enabled: true
+        file-extension: yaml
+logging:
+  config: classpath:logback-dev.xml
